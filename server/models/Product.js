@@ -67,7 +67,7 @@ const productSchema = new mongoose.Schema(
     },
     brand: {
       type: String,
-      default: 'EcoMerse Prime',
+      default: 'EcoCommerce Prime',
     },
     stock: {
       type: Number,

@@ -34,7 +34,7 @@ app.use('/api/admin', require('./routes/adminRoutes'));
 app.get('/api/health', (req, res) => {
   res.json({
     status: 'online',
-    message: 'Eco-merse API is running smoothly',
+    message: 'EcoCommerce API is running smoothly',
     timestamp: new Date().toISOString(),
   });
 });
@@ -49,7 +49,7 @@ if (process.env.NODE_ENV === 'production' || process.env.SERVE_CLIENT === 'true'
   });
 } else {
   app.get('/', (req, res) => {
-    res.send('Eco-merse API is running in Development mode...');
+    res.send('EcoCommerce API is running in Development mode...');
   });
 }
 

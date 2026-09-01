@@ -132,7 +132,7 @@ export default function Navbar() {
             </div>
             <div>
               <span style={{ fontSize: '1.45rem', fontWeight: 800, fontFamily: 'var(--font-heading)', letterSpacing: '-0.02em' }}>
-                Eco<span style={{ color: 'var(--primary)' }}>merse</span>
+                Eco<span style={{ color: 'var(--primary)' }}>Commerce</span>
               </span>
             </div>
           </Link>

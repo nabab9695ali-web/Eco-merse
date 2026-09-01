@@ -35,7 +35,7 @@ export default function RegisterPage() {
     setLoading(true);
     try {
       await register(formData.name, formData.email, formData.password, formData.phone);
-      showToast('Account created successfully! Welcome to EcoMerse.', 'success');
+      showToast('Account created successfully! Welcome to EcoCommerce.', 'success');
       navigate(redirect);
     } catch (err) {
       showToast(err.message || 'Registration failed', 'error');
@@ -74,7 +74,7 @@ export default function RegisterPage() {
           </div>
           <h1 style={{ fontSize: '1.8rem', fontWeight: 800 }}>Create Your Account</h1>
           <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', marginTop: '4px' }}>
-            Join thousands of conscious shoppers at EcoMerse
+            Join thousands of conscious shoppers at EcoCommerce
           </p>
         </div>
 

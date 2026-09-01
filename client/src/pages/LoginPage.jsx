@@ -25,7 +25,7 @@ export default function LoginPage() {
     setLoading(true);
     try {
       await login(email, password);
-      showToast('Welcome back to EcoMerse!', 'success');
+      showToast('Welcome back to EcoCommerce!', 'success');
       navigate(redirect);
     } catch (err) {
       showToast(err.message || 'Login failed. Check credentials.', 'error');
@@ -70,7 +70,7 @@ export default function LoginPage() {
           </div>
           <h1 style={{ fontSize: '1.8rem', fontWeight: 800 }}>Welcome Back</h1>
           <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', marginTop: '4px' }}>
-            Login to your EcoMerse account to continue
+            Login to your EcoCommerce account to continue
           </p>
         </div>
 

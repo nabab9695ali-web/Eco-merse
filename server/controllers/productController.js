@@ -163,7 +163,7 @@ const createProduct = async (req, res) => {
       shortDescription: shortDescription || '',
       images: images && images.length > 0 ? images : ['https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80'],
       category,
-      brand: brand || 'EcoMerse',
+      brand: brand || 'EcoCommerce',
       stock: stock !== undefined ? Number(stock) : 10,
       specifications: specifications || [],
       tags: tags || [],

@@ -1,7 +1,7 @@
 {
-  "name": "eco-merse",
+  "name": "eco-commerce",
   "version": "1.0.0",
-  "description": "Full Stack MERN Eco-merse Platform",
+  "description": "Full Stack MERN EcoCommerce Platform",
   "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",

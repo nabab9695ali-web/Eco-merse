@@ -1,7 +1,7 @@
 {
-  "name": "eco-merse-server",
+  "name": "eco-commerce-server",
   "version": "1.0.0",
-  "description": "Backend API for Eco-merse Platform",
+  "description": "Backend API for EcoCommerce Platform",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

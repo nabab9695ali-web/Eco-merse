@@ -10,7 +10,7 @@ export default function Footer() {
   const handleSubscribe = (e) => {
     e.preventDefault();
     if (email) {
-      showToast('Thank you for subscribing to EcoMerse Newsletter!', 'success');
+      showToast('Thank you for subscribing to EcoCommerce Newsletter!', 'success');
       setEmail('');
     }
   };
@@ -79,7 +79,7 @@ export default function Footer() {
             <div style={{ width: '36px', height: '36px', borderRadius: '10px', background: 'var(--primary)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff' }}>
               <Leaf size={20} />
             </div>
-            <span style={{ fontSize: '1.3rem', fontWeight: 800 }}>Eco<span style={{ color: 'var(--primary)' }}>merse</span></span>
+            <span style={{ fontSize: '1.3rem', fontWeight: 800 }}>Eco<span style={{ color: 'var(--primary)' }}>Commerce</span></span>
           </div>
           <p style={{ fontSize: '0.88rem', color: 'var(--text-muted)', lineHeight: 1.6, marginBottom: '1.25rem' }}>
             Empowering mindful consumerism. Discover ethically sourced, premium and sustainable products curated for modern life.
@@ -139,7 +139,7 @@ export default function Footer() {
       {/* Bottom Copyright & Credits */}
       <div className="container" style={{ borderTop: '1px solid var(--border-light)', paddingTop: '1.5rem', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center', gap: '1rem', fontSize: '0.82rem', color: 'var(--text-muted)' }}>
         <div>
-          © {new Date().getFullYear()} EcoMerse Platform. Designed & Built with <Heart size={13} color="#f43f5e" fill="#f43f5e" style={{ display: 'inline', verticalAlign: 'middle' }} /> by <strong>Nabab Ali</strong> (nabab9695ali@gmail.com).
+          © {new Date().getFullYear()} EcoCommerce Platform. Designed & Built with <Heart size={13} color="#f43f5e" fill="#f43f5e" style={{ display: 'inline', verticalAlign: 'middle' }} /> by <strong>Nabab Ali</strong> (nabab9695ali@gmail.com).
         </div>
         <div style={{ display: 'flex', gap: '1.25rem' }}>
           <span>Privacy Policy</span>

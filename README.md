@@ -1,4 +1,4 @@
-# 🌿 EcoMerse — Full-Stack MERN E-Commerce Platform
+# 🌿 EcoCommerce — Full-Stack MERN E-Commerce Platform
 
 > **Author**: Nabab Ali ([@nabab9695ali-web](https://github.com/nabab9695ali-web))  
 > **Contact**: nabab9695ali@gmail.com  
@@ -86,7 +86,7 @@ Backend API runs on: `http://localhost:5000`
    ```bash
    git init
    git add .
-   git commit -m "feat: complete EcoMerse MERN platform"
+   git commit -m "feat: complete EcoCommerce MERN platform"
    git remote add origin https://github.com/nabab9695ali-web/Eco-merse.git
    git branch -M main
    git push -u origin main
