@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: eco-merse
+    env: node
+    plan: free
+    buildCommand: npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MONGO_URI
+        value: mongodb+srv://Nabab:project1234@cluster0.gytxecs.mongodb.net/ecommerse?retryWrites=true&w=majority&appName=Cluster0
+      - key: JWT_SECRET
+        generateValue: true
+      - key: ADMIN_EMAIL
+        value: nabab9695ali@gmail.com

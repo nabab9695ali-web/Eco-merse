@@ -1,0 +1,27 @@
+{
+  "name": "eco-merse",
+  "version": "1.0.0",
+  "description": "Full Stack MERN Eco-merse Platform",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "node server/server.js",
+    "client": "npm run dev --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "seed": "node server/seeder.js",
+    "build": "npm install --prefix server && npm install --prefix client && npm run build --prefix client"
+  },
+  "keywords": [
+    "mern",
+    "ecommerce",
+    "mongodb",
+    "express",
+    "react",
+    "node"
+  ],
+  "author": "Nabab Ali <nabab9695ali@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^9.2.4"
+  }
+}
